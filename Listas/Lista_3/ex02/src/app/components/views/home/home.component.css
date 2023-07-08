@@ -1,0 +1,47 @@
+
+/*juegos*/
+
+.juegos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.juego{
+  border: 1px solid rgb(112, 97, 122);
+  width: 350px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.juego img{
+  border-radius: 10px;
+  width: 275px;
+  margin: 2px;
+
+}
+
+.juego h3{
+  color:rgba(250, 89, 196, 0.918);
+  margin: 5px;
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.527);
+
+
+}
+
+.juego p{
+  font-size: 20px;
+  color: rgb(219, 155, 221);
+}
+
+
+/*extra*/
+
+body{
+  background: linear-gradient(to right, #7b597c, #030c2e);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
