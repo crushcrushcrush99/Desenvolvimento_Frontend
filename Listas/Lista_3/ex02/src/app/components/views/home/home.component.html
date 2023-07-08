@@ -1,0 +1,17 @@
+   <div id="menu">
+
+  </div>
+
+
+<div class="juegos">
+  <div class="juego" *ngFor="let juego of juegos">
+    <img [src]="juego.imagen" />
+    <h3>{{ juego.nombre}}</h3>
+    <p>id: {{ juego._id }}</p>
+    <p>genero: {{ juego.genero}}</p>
+    <p>fecha de lanzamiento: {{ juego.fechaLanzamiento}}</p>
+    <p>desarrollador: {{ juego.desarrollador}}</p>
+
+  </div>
+</div>
+
