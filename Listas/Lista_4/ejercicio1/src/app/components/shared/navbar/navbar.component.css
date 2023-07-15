@@ -1,0 +1,18 @@
+.menu{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.menu a {
+  margin-left: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(144, 177, 187);
+  font-weight: bold;
+  font-family:fantasy
+}
+
+.menu a:hover{
+  font-size: 32px;
+}
