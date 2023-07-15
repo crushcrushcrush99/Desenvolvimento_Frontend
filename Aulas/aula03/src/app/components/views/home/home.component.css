@@ -1,0 +1,16 @@
+.animais{
+  margin: 5px;
+  border: 1px solid #EEE;
+  width: 300px;
+}
+
+.main{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.animais p{
+  margin:5px;
+}
