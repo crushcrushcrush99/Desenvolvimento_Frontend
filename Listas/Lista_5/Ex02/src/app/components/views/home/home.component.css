@@ -1,0 +1,14 @@
+h1{
+  margin:10px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  color: rgba(211, 118, 51, 0.904);
+  -webkit-text-stroke: 1px rgba(131, 29, 29, 0.349);
+
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
