@@ -7,6 +7,9 @@ import { Animal } from '../models/animal';
   providedIn: 'root'
 })
 export class AnimalService{
+  getAnimais() {
+    throw new Error('Method not implemented.');
+  }
   constructor(private http: HttpClient){}
 
   buscarAnimais(): Observable<Animal[]>{

@@ -1,0 +1,23 @@
+.adicionar-animal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  flex-direction: column;
+}
+
+.adicionar-animal input, button{
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  margin: 5px;
+  font-size: 25px;
+}
+
+.adicionar-animal button{
+  background-color: rgba(128, 115, 109, 0.842);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
