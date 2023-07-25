@@ -26,3 +26,11 @@ img{
   color: rgb(172, 47, 31);
   font-family: 'Lilita One', cursive;
 }
+
+.pokedex{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 200px;
+}

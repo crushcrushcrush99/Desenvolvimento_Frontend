@@ -17,6 +17,9 @@
   margin: 20px;
   font-size: 20px;
   background-color: rgba(250, 234, 234, 0.87);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .listagem-animais p{
@@ -28,3 +31,19 @@
   margin: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.info{
+  width: 100%;
+}
+
+img{
+  border-radius: 10px;
+  max-width: 180px;
+  max-height: 180px;
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  margin: 5px;
+
+}
+
