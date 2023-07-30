@@ -1,0 +1,8 @@
+<div class="principal">
+  <div class="productos" *ngFor="let producto of productos">
+    <img src="{{ producto.imagen }}" alt="">
+    <p class="nombre">{{ producto.nombre }}</p>
+    <p class="precio">${{ producto.valor }}</p>
+    <p class="descripcion">{{ producto.descripcion }}</p>
+  </div>
+</div>

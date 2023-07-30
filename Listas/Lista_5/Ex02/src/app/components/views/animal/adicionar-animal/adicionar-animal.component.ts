@@ -14,13 +14,15 @@ export class AdicionarAnimalComponent {
   public nome!: string;
   public raca!: string;
   public peso!: number;
+  public foto!: string;
 
   constructor(private animalService: AnimalService, private router: Router){}
 
   public adicionarAnimal(){
     let animal = new Animal(this.nome,
                             this.raca,
-                            this.peso);
+                            this.peso,
+                            this.foto);
     this.animalService.adicionarAnimal(animal)
     .subscribe((response) => {
       console.log(response);
