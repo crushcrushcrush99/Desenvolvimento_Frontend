@@ -1,0 +1,9 @@
+<div class="main">
+  <p>Agregar producto</p>
+  <input type="text" [(ngModel)]="nombreDelProducto" placeholder="Nombre del producto">
+  <input type="text" [(ngModel)]="descripcionDelProducto" placeholder="Descripcion">
+  <input type="text" [(ngModel)]="imagenDelProducto" placeholder="URL imagen">
+  <input type="number" [(ngModel)]="valorDelProducto" placeholder="Valor">
+  <input type="text" [(ngModel)]="categoriaDelProducto" placeholder="Categoria">
+  <button (click)="agregarProducto()">Guardar</button>
+</div>

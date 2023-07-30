@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body
+{
+  background-color: rgb(186, 186, 250);
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Condensed:wght@700&display=swap');
+
+
