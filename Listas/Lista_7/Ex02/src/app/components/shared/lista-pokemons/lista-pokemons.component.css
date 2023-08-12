@@ -1,0 +1,36 @@
+.main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.pokemons{
+  border: 1px solid rgb(226, 137, 20);
+  width: 190px;
+  text-align: center;
+  font-size: 5px;
+  border-radius: 500px;
+  background-color:rgb(238, 213, 175);
+  margin: 20px;
+}
+
+
+img{
+  width: 130px;
+  margin: 2px;
+}
+
+.pokemons p{
+  font-size: 20px;
+  color: rgb(172, 47, 31);
+  font-family: 'Lilita One', cursive;
+}
+
+.pokedex{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 200px;
+}
